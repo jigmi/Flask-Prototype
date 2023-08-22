@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="p-3 mb-2 bg-body-secondary">
+    <br>
+    <p><strong>Welcome to Jiggy's Taco Shop</strong></p>
+    <p>Please sign up for our nice tacos!</p>
+    <a href="{{url_for('signup')}}">
+        <button type="button" class="btn btn-primary btn-sm">
+            Sign up
+        </button>
+    </a>
+</div>
+{% endblock %}
